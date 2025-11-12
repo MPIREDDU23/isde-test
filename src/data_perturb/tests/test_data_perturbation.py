@@ -1,9 +1,9 @@
 import unittest
 import numpy as np
-from src.data_perturb.data_perturb_gaussian import CDataPerturbGaussian
-from src.data_perturb.data_perturb_random import CDataPerturbRandom
-from src.classifiers.nmc import NMC
-from src.fun_utils import load_mnist, split_data
+from data_perturb.data_perturb_gaussian import CDataPerturbGaussian
+from data_perturb.data_perturb_random import CDataPerturbRandom
+from classifiers.nmc import NMC
+from fun_utils import load_mnist, split_data
 
 mnist_path = 'data/mnist_data.csv'
 
