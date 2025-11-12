@@ -1,7 +1,7 @@
 from classifiers.nmc import NMC
 import unittest
 import numpy as np
-from src.fun_utils import load_mnist, split_data
+from fun_utils import load_mnist, split_data
 
 mnist_path = 'data/mnist_data.csv'
 
